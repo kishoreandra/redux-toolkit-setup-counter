@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid salmon;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 30%;
+  min-height: 50%;
+}
+button {
+  display: block;
+  padding: 0.5rem;
+  margin: 0.7rem 0px;
+}
+
+input {
+  width: 25%;
+  padding: 0.5rem;
+  margin-top: 0.7rem;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+h4 {
+  background-color: salmon;
+}
